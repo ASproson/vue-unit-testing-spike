@@ -24,10 +24,8 @@ export default {
   },
   methods: {
     getRandomNumber() {
-      //   this.randomNumber = Math.floor(Math.random() * (this.min + 1)) + this.min
       this.randomNumber =
         Math.floor(Math.random() * (this.max - this.min + 1)) + this.min
-      //   Math.floor(Math.random() * (max - min + 1)) + min;
     },
   },
 }
